@@ -28,5 +28,6 @@ int main(void)
     int b = 12;
     int sum = a + b;
     printf("sum of %d and %d is %d\n", a, b, sum);
+    printf("Hello, World!\n");
     return ok != 0 ? 0 : 1;
 }
