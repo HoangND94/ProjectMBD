@@ -26,5 +26,7 @@ int main(void)
     printf("status=%s total=%d\n", ok != 0 ? "ok" : "error", total);
     printf("Hello 12233\n");
     printf("Hello tu A\n");
+    printf("Hello tu B\n");
+    printf("Hello tu C\n");
     return ok != 0 ? 0 : 1;
 }
