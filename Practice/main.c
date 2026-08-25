@@ -32,5 +32,11 @@ int main(void)
     printf("Hello 12233\n");
     printf("Hello tu A\n");
 
+    // Example
+    for (int i = 0; i < 5; ++i)
+    {
+        printf("So tu 1 den 5: %d\n", i + 1);
+    }
+
     return ok != 0 ? 0 : 1;
 }
