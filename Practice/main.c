@@ -24,9 +24,13 @@ int main(void)
     int total = 0;
     const int ok = total_of(values, 3U, &total);
     printf("status=%s total=%d\n", ok != 0 ? "ok" : "error", total);
+
     int a = 8;
     int b = 12;
     int sum = a + b;
     printf("sum of %d and %d is %d\n", a, b, sum);
+    printf("Hello 12233\n");
+    printf("Hello tu A\n");
+
     return ok != 0 ? 0 : 1;
 }
