@@ -24,7 +24,7 @@ int main(void)
     int total = 0;
     const int ok = total_of(values, 3U, &total);
     printf("status=%s total=%d\n", ok != 0 ? "ok" : "error", total);
-    printf("Hello 123\n");
+    printf("Hello 12233\n");
     printf("Hello tu A\n");
     return ok != 0 ? 0 : 1;
 }
